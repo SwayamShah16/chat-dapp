@@ -88,6 +88,7 @@ export default function App() {
  
   useEffect(() => {
       if (!contract) return;
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       loadMessages(contract, account);
       const refresh = () => loadMessages(contract, account);
       contract.on("MessageSent", refresh);

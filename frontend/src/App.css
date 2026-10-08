@@ -1,0 +1,12 @@
+.app { max-width: 640px; margin: 2rem auto; padding: 0 1rem; font-family: system-ui, sans-serif; }
+.bar, .row { display: flex; gap: 8px; margin: 10px 0; align-items: center; justify-content: space-between; }
+.row input { flex: 1; }
+input { padding: 8px; width: 100%; box-sizing: border-box; }
+button { padding: 8px 14px; cursor: pointer; }
+.messages { border: 1px solid #ccc; border-radius: 8px; padding: 10px; height: 340px; overflow-y: auto; margin: 10px 0; }
+.msg { background: #f1f1f1; border-radius: 8px; padding: 8px; margin-bottom: 8px; color: #111; }
+.msg.mine { background: #dbeafe; }
+.meta { font-size: 12px; margin-bottom: 4px; }
+.dm { color: #7c3aed; }
+.time, .muted { color: #666; }
+.error { color: #b91c1c; font-weight: 600; }

@@ -56,12 +56,16 @@ export default function App() {
     }
   }
 
-  function disconnect() {
+    function disconnect() {
     // MetaMask cannot be disconnected from code; this clears the app's state
     setAccount("");
     setContract(null);
     setMessages([]);
     setNicknames({});
+    setError("");
+    setText("");
+    setTo("");
+    setNickInput("");
   }
 
   const loadMessages = useCallback(async (c, acct) => {

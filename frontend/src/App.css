@@ -104,12 +104,14 @@ input::placeholder { color: #6b7280; }
 /* Landing */
 .landing {
   flex: 1;
+  min-height: 0;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 24px 28px;
+  padding: 16px 28px;
 }
 .hero-icon { font-size: 52px; }
 .landing h2 { margin: 12px 0 8px; font-size: 26px; color: #fff; }
